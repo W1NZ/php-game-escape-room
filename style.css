@@ -1,0 +1,77 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: gray;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+nav {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  top: 10px;
+  left: 20px;
+  color: beige;
+  text-align: center;
+  font-size: 14px;
+}
+nav a{
+  color: beige;
+  text-decoration: none;
+}
+.logotyp{
+  height: 50px;
+  margin-right: 10px;
+}
+main img {
+  box-shadow: 0px 4px 32px 5px rgb(63, 82, 85);
+  border: 2px solid #222;
+}
+
+main a {
+  color: beige;
+  font-size: 20px;
+  text-decoration: none;
+}
+main table {
+  position: absolute;
+  bottom: 20px;
+}
+main .back {
+  position: absolute;
+  bottom: 30px;
+  right: 400px;
+}
+main .back img {
+  box-shadow: none;
+  border: none;
+}
+main th {
+  background-color: hsla(0, 0%, 38%, 0.5);
+  border: 4px solid rgba(54, 54, 54, 0.5);
+  height: 100px;
+  width: 100px;
+  padding: 5px 5px 2px 5px;
+}
+th img {
+  width: 100px;
+  height: 100px;
+}
+footer {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+}
+body h1 {
+  text-align: center;
+  padding-top: 10px;
+  color: rgb(0, 65, 65);
+}
